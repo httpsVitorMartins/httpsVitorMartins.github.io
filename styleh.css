@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(midia/IMG-20241120-WA0039.jpg);
+    display: flex; 
+    flex-direction: column;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;  
+     background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color:#ffffff
+}
+header{
+    height: 60px; 
+    background-color:#2f2f8349; 
+}
+nav{ 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;   
+    margin-left: 50px; 
+    
+} 
+nav .link{ 
+    color: white; 
+    text-decoration: underline; 
+    transition: all 0.5s; 
+     
+} 
+nav .link:hover{ 
+    transform: scale(1.2); 
+}
+main{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+div.menu-container{
+    width: 250px;
+    height: 320px;
+    transition: height 1.5 ease;
+    transition: width 1.5s ease;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-radius: 10px; 
+}
+img{
+    width: 170px;
+    margin-top: 30px;
+}
+div.menu-container h2{
+    margin: 20px 20px 20px 20px;
+    overflow: hidden;
+    color: blue;
+    font-size: 17px;
+}
+div.menu-container p{
+    color:black ;
+    padding: 10px;
+    overflow: hidden;
+    transition: all 0.755s;
+    font-size: 12px;
+}
+div.sessao-integrantes{
+    min-width: 250px;
+    min-height: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    transition: 1s;
+}
+div.space{
+width: 120px;
+}
+div.sessao-integrantes2{
+    min-width: 250px;
+    min-height: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    transition: 1s;
+}
+div.space{
+    width: 120px;
+}
+div.space2{
+    height: 120px;
+}
+
+footer{ 
+    font-size:0.3rem ; 
+    background-color:#191970; 
+    font-family: 'Times New Roman', Times, serif; 
+    color: #ffffff; 
+    text-align: center; 
+    justify-content: end;
+    
+} 
+footer p{ 
+    font-size: 0.9rem 
+} 
+footer p img{ 
+    height:15px; 
+    width: 15px; 
+} 
+.menorfooder{ 
+    font-size:small 
+}
+  .containera {
+    min-height: 100vh; 
+  }
